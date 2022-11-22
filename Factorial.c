@@ -23,5 +23,6 @@ void factorial(){
 int main(){
     
     factorial();
+    return 0;
 }
 

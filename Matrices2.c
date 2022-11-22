@@ -5,24 +5,24 @@
 void multiplicacion_matrices(){
      
     int MatrizA[F][C],MatrizB[F][C],MatrizC[F][C],filas,columnas, k, suma,j,i;
-
+printf("Matriz 1\n");
  //Matriz A
-    printf("Indique el numero de filas");scanf("%d",&filas);
-    printf("Indique el numero de columnas");scanf("%d",&columnas);
+    printf("Indique el numero de filas:");scanf("%d",&filas);
+    printf("Indique el numero de columnas:");scanf("%d",&columnas);
 
     for(int i=0; i < filas; i ++){
         for(int j=0;j < columnas; j ++){
-            printf("Indique los valores de su matriz [%d][%d]",i + 1 ,j + 1);scanf("%d",&MatrizA[i][j]);
+            printf("Indique los valores de su matriz[%d][%d]:",i + 1 ,j + 1);scanf("%d",&MatrizA[i][j]);
         }
     }
    //Matriz B 
-    
-    printf("Indique el numero de filas");scanf("%d",&filas);
-    printf("Indique el numero de columnas");scanf("%d",&columnas);
+    printf("\nMatriz 2\n");
+    printf("Indique el numero de filas:");scanf("%d",&filas);
+    printf("Indique el numero de columnas:");scanf("%d",&columnas);
 
     for(i=0; i < filas; i ++){
         for(j=0;j < columnas; j ++){
-            printf("Indique los valores de su matriz [%d][%d]",i + 1 ,j+ 1);scanf("%d",&MatrizB[i][j]);
+            printf("Indique los valores de su matriz [%d][%d]:",i + 1 ,j+ 1);scanf("%d",&MatrizB[i][j]);
         }
     }
 
@@ -44,4 +44,7 @@ void multiplicacion_matrices(){
    
 
 
+int main(){
 
+    multiplicacion_matrices();
+}
