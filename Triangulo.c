@@ -3,7 +3,7 @@
 /*
 
 La suma de cada cateto al cuadrado es igual a la hipotenusa al cuadrado
-Triángulo rectángulo: un ángulo de 90° y todos los lados diferentes
+Triï¿½ngulo rectï¿½ngulo: un ï¿½ngulo de 90ï¿½ y todos los lados diferentes
 
 Calcula la hipotenusa
 */
@@ -11,20 +11,15 @@ Calcula la hipotenusa
 #include<stdio.h>
 #include<math.h>
 
-void hipotenusa(){
 
-
-    float co, ca, h;
-    
-	printf("Indique el valor del cateto opuesto:");
-	scanf("%f",&co);
-    printf("Indique el valor del cateto adyacente:");
-	scanf("%f",&ca);   
-    h=sqrt(co*co + ca*ca);
-    printf("La hipotenusa mide: %f",h);
-
-
+void hipotenusa_triangulo(){
+	float co,ca,h;
+	printf("Indique el valor del cateto opuesto");scanf("%f",&co);
+	printf("Indique el valor del cateto adyacente");scanf("%f",&ca);
+	h=sqrt(co*co + ca*ca);
+	printf("La hipotenusa mide: %f",h);
 }
+
 
 
 void area(){
@@ -66,18 +61,18 @@ int main(){
 		
 		
 		case 'a':
-		hipotenusa();
+			hipotenusa_triangulo();
 		break;
 		
 		
 		case 'b':
-		area();
+			area();
 		break;
 		
 		
 		
 		case 'c':
-		angulo();
+			angulo();
 		break;
 	  	
 		
@@ -86,6 +81,4 @@ int main(){
 	
 	
 	return 0;
-	
-
 }

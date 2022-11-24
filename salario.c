@@ -25,5 +25,11 @@ void sueldo_neto(){
     else {
 		printf("Fin del programa");
 	}
-	return 0;
+	
+}
+
+
+int main(){
+
+	sueldo_neto();
 }
