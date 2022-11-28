@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <stdlib.h>
 
 #define F 10
 #define C 10

@@ -5,7 +5,7 @@
 void multiplicacion_matrices(){
      
     int MatrizA[F][C],MatrizB[F][C],MatrizC[F][C],filas,columnas, k, suma,j,i;
-printf("Matriz 1\n");
+    printf("Matriz 1\n");
  //Matriz A
     printf("Indique el numero de filas:");scanf("%d",&filas);
     printf("Indique el numero de columnas:");scanf("%d",&columnas);
