@@ -286,16 +286,14 @@ void kelvin(){
     }
 }
 
-/*void hipotenusa(){
+void hipotenusa(){
     float co,ca,h;
     printf("Digite el valor de su cateto opuesto:");scanf("%f",&co);
     printf("Digite el valor de su cateto adyacente:");scanf("%f",&co);
     h=sqrt((co*co) + (ca*ca));
     printf("El valor de la hipotenusa es:%f",h);
-    
-
 }
-*/
+
 
 void area(){
 	
