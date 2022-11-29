@@ -349,8 +349,8 @@ void sueldo_neto(){
 
 
 int main(){
-    
-    printf("Bienvenido al programa de calculos matematicos diversos\n");
+    printf("\nEnlace repositorio github :https://github.com/ang-201/Programacion-Modular\n");
+    printf("\nBienvenido al programa de calculos matematicos diversos\n");
 	printf("\nSeleccionar el numero de la opcion deseada");
 	printf("\nEjemplo:Si desea obtener el area de un rectangulo eliga la opcion numero 1 para ingresar al menu interno del subprograma \n\n");
     printf("Menu:\n\n1.Obtener el area de un cuadrado, obtener el area de un rectangulo, obtener el area de un trapecio\n");
